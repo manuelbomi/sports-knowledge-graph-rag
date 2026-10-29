@@ -23,7 +23,7 @@ The diagram below shows a simple example of what a sports knowledge graph ontolo
 
 ![Knowledge Graph Concept](images/kg_concept.png)
 
-In `knowledge_graph.py`, the ontology is the `type` attribute on every node — `Fan`, `Team`, `City`, `Venue`, `Event` — and the `rel` attribute on every edge — `FOLLOWS`, `LIVES_IN`, `PLAYS_AT`, `ATTENDS`, `HOSTED_AT`. That is all an ontology is: a schema enforced at the graph level rather than inside relational tables. The code comment block at the top of `knowledge_graph.py` maps each concept directly to what it means in the code:
+In `knowledge_graph.py`, the ontology is the `type` attribute on every node — `Fan`, `Team`, `City`, `Venue`, `Event` — and the `rel` attribute on every edge — `FOLLOWS`, `LIVES_IN`, `PLAYS_AT`, `ATTENDS`, `HOSTED_AT`. In the context of using graphs to establish domain relationships, that is all an ontology is: a schema enforced at the graph level rather than inside relational tables. The code comment block at the top of `knowledge_graph.py` (see the code in the repo) maps each concept directly to what it means in the code:
 
 ```python
 # Entities (nodes)     Fans, teams, cities, venues, events
